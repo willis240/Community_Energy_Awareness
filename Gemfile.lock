@@ -112,7 +112,9 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.7.1)
     minitest (5.15.0)
+    mqtt (0.5.0)
     msgpack (1.4.4)
     net-imap (0.2.3)
       digest
@@ -130,6 +132,11 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
+    nokogiri (1.13.1)
+      mini_portile2 (~> 2.7.0)
+      racc (~> 1.4)
+    nokogiri (1.13.1-x64-mingw32)
+      racc (~> 1.4)
     nokogiri (1.13.1-x86_64-linux)
       racc (~> 1.4)
     public_suffix (4.0.6)
@@ -193,6 +200,8 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.5)
+      tzinfo (>= 1.0.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -211,6 +220,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
@@ -219,6 +229,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  mqtt (~> 0.5.0)
   puma (~> 5.0)
   rails (~> 7.0.1)
   selenium-webdriver
@@ -231,7 +242,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 3.0.3p157
 
 BUNDLED WITH
    2.3.6
