@@ -1,0 +1,2 @@
+class MicrogridController < ApplicationController
+end
