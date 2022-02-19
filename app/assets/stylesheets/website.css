@@ -1,5 +1,4 @@
 * {
-    background-color: #444;
     font-family: "Times New Roman", sans-serif;
 }
 
@@ -34,19 +33,12 @@ li a:hover {
 
 .filler{
     display: flex;
-    color: white;
     font-size: 1.25em;
 }
 
 .col {
     flex: 50%;
     padding: 2em;
-}
-
-.dashboard {
-    text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 #boarder {
@@ -61,7 +53,6 @@ li a:hover {
 }
 
 .filler2{
-    color: white;
     font-size: 1.25em;
     padding: 2em;
 }
@@ -85,4 +76,107 @@ li a:hover {
 
 #background a {
     background-color: #222;
+}
+
+.dashboard_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    width: 540px;
+    height: 400px;
+    border: 6px solid #2e2e2e;
+    border-radius: 25px;
+    background-color: dimgray;
+}
+
+#title_renew {
+    color: lightgreen;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#title_diesel {
+    color: yellow;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#title_battery {
+    color: darkorange;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#title_output {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#energy {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.inputs {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.wind {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 6px solid lightgreen;
+    border-radius: 25px;
+    width: 90px;
+}
+
+.solar {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 6px solid lightgreen;
+    border-radius: 25px;
+    width: 90px;
+}
+
+.diesel {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 6px solid yellow;
+    border-radius: 25px;
+    width: 90px;
+}
+
+.battery {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 6px solid darkorange;
+    border-radius: 25px;
+    width: 90px;
+}
+
+.output {
+    text-align: center;
+    padding: 10px;
+    margin-top: 140px;
+    border: 6px solid white;
+    border-radius: 25px;
+    width: 220px;
 }
