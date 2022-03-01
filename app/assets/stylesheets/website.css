@@ -89,7 +89,7 @@ li a:hover {
     flex-direction: column;
     justify-content: start;
     width: 540px;
-    height: 400px;
+    height: 440px;
     border: 6px solid #2e2e2e;
     border-radius: 25px;
     background-color: dimgray;
@@ -125,6 +125,11 @@ li a:hover {
 #energy {
     color: lightgray;
     font-size: 20px;
+}
+
+#percentage {
+    color: yellow;
+    font-size: 18px;
 }
 
 .inputs {
