@@ -87,11 +87,10 @@ li a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: start;
-    width: 540px;
-    height: 440px;
+    width: 34em;
+    height: 28em;
     border: 6px solid #2e2e2e;
-    border-radius: 25px;
+    border-radius: 2em;
     background-color: dimgray;
 }
 
@@ -99,27 +98,27 @@ li a:hover {
     color: lightgreen;
     margin-top: 0px;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 1em;
 }
 
 #title_diesel {
     color: yellow;
     margin-top: 0px;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 1em;
 }
 
 #title_battery {
     color: darkorange;
     margin-top: 0px;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 1em;
 }
 
 #title_output {
     color: white;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 1em;
 }
 
 #energy {
@@ -180,8 +179,41 @@ li a:hover {
 .output {
     text-align: center;
     padding: 10px;
-    margin-top: 140px;
+    margin-top: 100px;
     border: 6px solid white;
     border-radius: 25px;
     width: 220px;
+}
+
+.container-bg {
+    border: 6px solid black;
+    border-radius: 2em;
+    background-color: dimgray;
+    max-width: 700px;
+    margin: auto;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.border-renew {
+    border: 6px solid lightgreen;
+    border-radius: 1em;
+}
+
+.border-diesel {
+    border: 6px solid yellow;
+    border-radius: 1em;
+}
+
+.border-battery {
+    border: 6px solid darkorange;
+    border-radius: 1em;
+}
+
+.border-output {
+    border: 6px solid white;
+    border-radius: 1em;
 }

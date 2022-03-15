@@ -22,3 +22,14 @@ Did some paired programming with Blake working on making the dashboard design in
 Continued working on the dashboard design in HTML/CSS
 2/19/2022
 
+Added percentages for energy output to dashboard
+2/21/2022
+
+Implemented Bootstrap as the front-end framework
+3/1/2022
+
+Used Bootstrap to get the dashboard to automatically adjust to screen size - now looks good on mobile
+3/7/2022
+
+Implemented a maximum width for dashboard so it doesn't take up whole screen on desktop
+3/14/2022
