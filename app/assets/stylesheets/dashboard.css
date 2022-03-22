@@ -14,28 +14,28 @@
     background-color: dimgray;
 }
 
-#title_renew {
+#title-renew {
     color: lightgreen;
     margin-top: 0px;
     background-color: black;
     border-radius: 1em;
 }
 
-#title_diesel {
+#title-diesel {
     color: yellow;
     margin-top: 0px;
     background-color: black;
     border-radius: 1em;
 }
 
-#title_battery {
+#title-battery {
     color: darkorange;
     margin-top: 0px;
     background-color: black;
     border-radius: 1em;
 }
 
-#title_output {
+#title-output {
     color: white;
     background-color: black;
     border-radius: 1em;
@@ -49,6 +49,18 @@
 #percentage {
     color: yellow;
     font-size: 18px;
+}
+
+.symbol-renew{
+    filter: invert(89%) sepia(18%) saturate(1039%) hue-rotate(59deg) brightness(99%) contrast(88%);
+}
+
+.symbol-diesel{
+    filter: invert(87%) sepia(76%) saturate(4270%) hue-rotate(356deg) brightness(102%) contrast(103%);
+}
+
+.symbol-battery{
+    filter: invert(64%) sepia(50%) saturate(4124%) hue-rotate(359deg) brightness(101%) contrast(106%);
 }
 
 .inputs {

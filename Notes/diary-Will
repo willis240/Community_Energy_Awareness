@@ -33,3 +33,11 @@ Used Bootstrap to get the dashboard to automatically adjust to screen size - now
 
 Implemented a maximum width for dashboard so it doesn't take up whole screen on desktop
 3/14/2022
+
+Added symbols for each input type to the dashboard
+3/17/2022
+
+Adjusted the colors of the symbols using CSS filters
+I found this website which automatically generates the filter code for the hex color of your choice:
+https://codepen.io/sosuke/pen/Pjoqqp
+3/22/2022
