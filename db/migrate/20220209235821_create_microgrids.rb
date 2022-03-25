@@ -5,6 +5,10 @@ class CreateMicrogrids < ActiveRecord::Migration[7.0]
       t.integer :total_load
       t.integer :total_input
       t.integer :frequency
+      t.integer :wind
+      t.integer :solar
+      t.integer :battery
+      t.integer :diesel
 
       t.timestamps
     end
