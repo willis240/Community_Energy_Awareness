@@ -1,18 +1,3 @@
-.dashboard_wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.dashboard {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 34em;
-    height: 28em;
-    border: 6px solid #2e2e2e;
-    border-radius: 2em;
-    background-color: dimgray;
-}
 
 #title-renew {
     color: lightgreen;
@@ -79,46 +64,8 @@
     width: 90px;
 }
 
-.solar {
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    border: 6px solid lightgreen;
-    border-radius: 25px;
-    width: 90px;
-}
-
-.diesel {
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    border: 6px solid yellow;
-    border-radius: 25px;
-    width: 90px;
-}
-
-.battery {
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    border: 6px solid darkorange;
-    border-radius: 25px;
-    width: 90px;
-}
-
-.output {
-    text-align: center;
-    padding: 10px;
-    margin-top: 100px;
-    border: 6px solid white;
-    border-radius: 25px;
-    width: 220px;
-}
-
 .container-bg {
-    border: 6px solid black;
+    border: 8px solid black;
     border-radius: 2em;
     background-color: dimgray;
     max-width: 700px;
@@ -148,4 +95,9 @@
 .border-output {
     border: 6px solid white;
     border-radius: 1em;
+}
+
+.col{
+    padding-left: 0;
+    padding-right: 0;
 }

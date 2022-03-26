@@ -2,6 +2,84 @@
 
 <div class="container-bg">
   <div class="container">
+    <div class="row title text-center">
+      <p id=title-output> <%= microgrid.name %> </p>
+    </div>
+    <div class="d-flex">
+      <div class="col">
+        <div class="row">
+          <div class="border-renew text-center">
+            <p id="title-renew"> Wind </p>
+            <p id="energy"> <%= microgrid.wind %> kW </p>
+            <div class="symbol-renew">
+              <p>
+                <%= image_tag "input_symbols/Wind_Symbol.png", height: 25 %> &nbsp;
+                <%= ((microgrid.wind / microgrid.total_input.to_d) * 100).round(2) %> %
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row"><br></div>
+        <div class="row">
+          <div class="border-diesel text-center">
+            <p id="title-diesel"> Diesel </p>
+            <p id="energy"> <%= microgrid.diesel %> kW </p>
+            <div class="symbol-diesel">
+              <p>
+                <%= image_tag "input_symbols/Diesel_Symbol.png", height: 25 %> &nbsp;
+                <%= ((microgrid.diesel / microgrid.total_input.to_d) * 100).round(2) %> %
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <p>text</p>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="border-renew text-center">
+            <p id="title-renew"> Solar </p>
+            <p id="energy"> <%= microgrid.solar %> kW </p>
+            <div class="symbol-renew">
+              <p>
+                <%= image_tag "input_symbols/Solar_Symbol.png", height: 25 %> &nbsp;
+                <%= ((microgrid.solar / microgrid.total_input.to_d) * 100).round(2) %> %
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row"><br></div>
+        <div class="row">
+          <div class="border-battery text-center">
+            <p id="title-battery"> Battery </p>
+            <p id="energy"> <%= microgrid.battery %> kW </p>
+            <div class="symbol-battery">
+              <p>
+                <%= image_tag "input_symbols/Battery_Symbol.png", height: 25 %> &nbsp;
+                <%= ((microgrid.battery / microgrid.total_input.to_d) * 100).round(2) %> %
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row output text-center">
+      <div class="col">
+        <div class="border-output">
+          <p id="title-output"> Output </p>
+          <p id="energy"> 1434 kW </p>
+          <p id="percentage"> 100% </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div><br></div>
+
+<div class="container-bg">
+  <div class="container">
     <div class="row">
       <div class="col text-center">
         <div class="border-renew">
