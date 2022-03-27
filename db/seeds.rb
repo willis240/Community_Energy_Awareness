@@ -6,4 +6,4 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 #
-Microgrid.create(name: "Kotzebue", total_load: 580, total_input: 580, frequency: 60, wind: 75, solar: 50, diesel: 455, battery: -70)
+Microgrid.create(name: "Kotzebue", total_load: 580, total_input: 580, frequency: 60, wind: 50, solar: 75, diesel: 455, battery: -70)

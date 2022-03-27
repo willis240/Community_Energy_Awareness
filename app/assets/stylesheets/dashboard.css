@@ -36,16 +36,20 @@
     font-size: 18px;
 }
 
-.symbol-renew{
-    filter: invert(89%) sepia(18%) saturate(1039%) hue-rotate(59deg) brightness(99%) contrast(88%);
+#symbol-renew{
+    filter: invert(89%) sepia(18%) saturate(1039%) hue-rotate(59deg) brightness(99%) contrast(88%)
 }
 
-.symbol-diesel{
+#symbol-diesel{
     filter: invert(87%) sepia(76%) saturate(4270%) hue-rotate(356deg) brightness(102%) contrast(103%);
 }
 
-.symbol-battery{
+#symbol-battery{
     filter: invert(64%) sepia(50%) saturate(4124%) hue-rotate(359deg) brightness(101%) contrast(106%);
+}
+
+.percent{
+    color: yellow
 }
 
 .inputs {
