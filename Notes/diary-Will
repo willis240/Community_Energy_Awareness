@@ -41,3 +41,9 @@ Adjusted the colors of the symbols using CSS filters
 I found this website which automatically generates the filter code for the hex color of your choice:
 https://codepen.io/sosuke/pen/Pjoqqp
 3/22/2022
+
+Created new version of dashboard split primarily by columns, values no longer hard-coded
+3/24/2022
+
+Added arrows to the dashboard, but they do not work well on mobile
+3/26/2022
