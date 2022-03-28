@@ -3,7 +3,7 @@
 <div class="container-bg">
   <div class="container">
     <div class="row title text-center">
-      <p id=title-output> <%= microgrid.name %> </p>
+      <p id=title-output> <%= microgrid.name %> Power Grid </p>
     </div>
     <div class="d-flex">
       <div class="col">
@@ -42,7 +42,11 @@
         </div>
       </div>
       <div class="col text-center">
-        <p>text</p>
+        <p>
+        <div class="img-fluid">
+          <%= image_tag "Arrows_Small.png", height: 300 %>
+        </div>
+        </p>
       </div>
       <div class="col">
         <div class="row">
@@ -81,7 +85,7 @@
       <div class="col">
         <div class="border-output">
           <p id="title-output"> Output </p>
-          <p id="energy"> 1434 kW </p>
+          <p id="energy"> <%= (microgrid.wind + microgrid.solar + microgrid.diesel + microgrid.battery) %> kW </p>
           <p id="percentage"> 100% </p>
         </div>
       </div>
