@@ -74,7 +74,13 @@
                   <%= image_tag "input_symbols/Battery_Symbol.png", height: 25 %>
                 </filter>
                 &nbsp;
-                <%= ((microgrid.battery / microgrid.total_input.to_d) * 100).round(2) %> %
+                <% temp = ((microgrid.battery / microgrid.total_input.to_d) * 100).round(2) %>
+                <% if temp < 0 %>
+                  <%= 0.0 %>
+                <% else %>
+                  <%= temp %>
+                <% end %>
+                  %
               </p>
             </div>
           </div>
