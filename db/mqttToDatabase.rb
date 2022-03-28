@@ -9,7 +9,6 @@ client = MQTT::Client.connect(
 )
 
 client.subscribe( '/mock-data/kea/#' )
-
 db = SQLite3::Database.open 'development.sqlite3'
 if db
   puts 'datastream open'
@@ -45,5 +44,4 @@ client.get do |topic, message|
   end
   db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=? WHERE name=?",
              $battery_message, $wind_message, $solar_message, $diesel_message, $total_input, 'Kotzebue'
-
 end
