@@ -17,7 +17,7 @@
                 <%= image_tag "input_symbols/Wind_Symbol.png", height: 25 %>
                 </filter>
                 &nbsp;
-                <%= ((microgrid.wind / microgrid.total_input.to_d) * 100).round(2) %> %
+                <%= ((microgrid.wind / microgrid.total_load.to_d) * 100).round(2) %> %
               </p>
             </div>
           </div>
@@ -35,7 +35,7 @@
                   <%= image_tag "input_symbols/Diesel_Symbol.png", height: 25 %>
                 </filter>
                 &nbsp;
-                <%= ((microgrid.diesel / microgrid.total_input.to_d) * 100).round(2) %> %
+                <%= ((microgrid.diesel / microgrid.total_load.to_d) * 100).round(2) %> %
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@
                 <filter id="symbol-renew">
                   <%= image_tag "input_symbols/Solar_Symbol.png", height: 25 %>
                 </filter>
-                <%= ((microgrid.solar / microgrid.total_input.to_d) * 100).round(2) %> %
+                <%= ((microgrid.solar / microgrid.total_load.to_d) * 100).round(2) %> %
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@
                   <%= image_tag "input_symbols/Battery_Symbol.png", height: 25 %>
                 </filter>
                 &nbsp;
-                <% temp = ((microgrid.battery / microgrid.total_input.to_d) * 100).round(2) %>
+                <% temp = ((microgrid.battery / microgrid.total_load.to_d) * 100).round(2) %>
                 <% if temp < 0 %>
                   <%= 0.0 %>
                 <% else %>
@@ -91,7 +91,7 @@
       <div class="col">
         <div class="border-output">
           <p id="title-output"> Output </p>
-          <p id="energy"> <%= (microgrid.wind + microgrid.solar + microgrid.diesel + microgrid.battery) %> kW </p>
+          <p id="energy"> <%= microgrid.total_load %> kW </p>
           <p id="percentage"> 100% </p>
         </div>
       </div>
