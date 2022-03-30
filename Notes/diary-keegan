@@ -1,1 +1,52 @@
+Fantastic general knowledge base for Ruby!
+https://github.com/gramantin/awesome-rails#readme
+
+Complete jetbrains tutorial for Ruby on Rails
+https://www.jetbrains.com/help/ruby/create-and-run-your-first-project.html#create_controller_view
+2022.1.20
+
+Complete  tutorial for making a blog using Rails 7
+https://www.youtube.com/watch?v=mpWFrUwAN88
+2022.2.2
+
+Build your own rails app rails 6
+https://www.youtube.com/watch?v=wbZ6yrVxScM
+2022.2.4
+
+Full Ruby course, 4 hour vid. (2x speed and skip through, not too bad)
+https://www.youtube.com/watch?v=fmyvWz5TUWg
+
+MQTT into research
+https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt/
+2022.2.10
+
+MQTT protocol research
+http://www.steves-internet-guide.com/mqtt/
+
+Alternate MQTT Gem idea, works with encrypted may implement in future version (both are the same)
+https://github.com/RubyDevInc/paho.mqtt.ruby
+https://github.com/eclipse/paho.mqtt.ruby#installation
+
+Potential MQTT broker for testing
+https://www.rabbitmq.com/
+
+Mosquitto (MQTT broker) Mac install guide
+https://gist.github.com/KazChe/6bcafbaf29e10a7f309d3ca2e2a0f706
+
+MQTT Basic setup and ruby connection
+https://dev.to/nehanakrani/setting-up-mqtt-with-ruby-on-rails-3dbi
+
+Basic database connection SQLite3
+https://zetcode.com/db/sqliteruby/connect/
+
+SQLite3 in beginner guide
+https://www.devdungeon.com/content/ruby-sqlite-tutorial
+
+SQLite3 UPDATE command
+https://www.w3resource.com/sqlite/sqlite-update.php
+
+SQLite3 multi-column one line command
+https://www.geeksforgeeks.org/how-to-update-multiple-columns-in-single-update-statement-in-sql/
+
+
 
