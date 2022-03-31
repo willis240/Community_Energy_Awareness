@@ -38,10 +38,10 @@ client.get do |topic, message|
     puts Diesel: $diesel_message
   end
 
-  $total_input = $wind_message + $solar_message + $diesel_message
+  $total_load = $wind_message + $solar_message + $diesel_message
   if $battery_message > 0
-    $total_input += $battery_message
+    $total_load += $battery_message
   end
   db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=? WHERE name=?",
-             $battery_message, $wind_message, $solar_message, $diesel_message, $total_input, 'Kotzebue'
+             $battery_message, $wind_message, $solar_message, $diesel_message, $total_load, 'Kotzebue'
 end
