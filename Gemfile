@@ -75,3 +75,5 @@ group :test do
 end
 
 gem "mqtt", "~> 0.5.0"
+
+gem "jquery-rails"
