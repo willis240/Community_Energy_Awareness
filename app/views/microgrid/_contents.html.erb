@@ -38,11 +38,13 @@
   </div>
 
   <div class="col text-center">
-    <p>
     <div class="img-fluid">
-      <%= image_tag "Arrows_Small.png", height: 300 %>
+      <% if microgrid.battery > 0 %>
+        <%= image_tag "Arrows_Small_Discharging.png", height: 300 %>
+      <% else %>
+        <%= image_tag "Arrows_Small_Charging.png", height: 300 %>
+      <% end %>
     </div>
-    </p>
   </div>
 
   <div class="col">
@@ -84,7 +86,7 @@
     </div>
   </div>
 </div>
-
+<br>
 <div class="row output text-center">
   <div class="col">
     <div class="border-output">

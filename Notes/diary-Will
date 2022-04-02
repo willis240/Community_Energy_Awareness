@@ -47,3 +47,9 @@ Created new version of dashboard split primarily by columns, values no longer ha
 
 Added arrows to the dashboard, but they do not work well on mobile
 3/26/2022
+
+Added arrows which look good on mobile, but not on desktop
+3/27/2022
+
+Added two different single-direction battery arrows
+3/31/2022
