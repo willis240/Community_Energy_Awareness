@@ -1,21 +1,21 @@
 
 #title-renew {
     color: lightgreen;
-    margin-top: 0px;
+    margin-top: 0;
     background-color: black;
     border-radius: 1em;
 }
 
 #title-diesel {
     color: yellow;
-    margin-top: 0px;
+    margin-top: 0;
     background-color: black;
     border-radius: 1em;
 }
 
 #title-battery {
     color: darkorange;
-    margin-top: 0px;
+    margin-top: 0;
     background-color: black;
     border-radius: 1em;
 }
@@ -24,6 +24,22 @@
     color: white;
     background-color: black;
     border-radius: 1em;
+}
+
+#text-renew {
+    color: lightgreen;
+    margin-top: 0;
+}
+
+#text-diesel {
+    color: yellow;
+    margin-top: 0;
+    white-space: pre-line;
+}
+
+#text-battery {
+    color: darkorange;
+    margin-top: 0;
 }
 
 #energy {
@@ -37,15 +53,32 @@
 }
 
 #symbol-renew{
-    filter: invert(89%) sepia(18%) saturate(1039%) hue-rotate(59deg) brightness(99%) contrast(88%)
+    filter: invert(89%) sepia(18%) saturate(1039%) hue-rotate(59deg) brightness(99%) contrast(88%);
+    font-size: 18px;
 }
 
 #symbol-diesel{
     filter: invert(87%) sepia(76%) saturate(4270%) hue-rotate(356deg) brightness(102%) contrast(103%);
+    font-size: 14px;
 }
 
 #symbol-battery{
     filter: invert(64%) sepia(50%) saturate(4124%) hue-rotate(359deg) brightness(101%) contrast(106%);
+    font-size: 18px;
+}
+
+.right-justify{
+    text-align: right;
+}
+
+.graphs-link{
+    padding-right: 7px;
+    color: deepskyblue;
+}
+
+.update-note{
+    padding-left: 5px;
+    color: black;
 }
 
 .percent{
@@ -70,7 +103,7 @@
 
 .container-bg {
     border: 8px solid black;
-    border-radius: 2em;
+    border-radius: 28px;
     background-color: dimgray;
     max-width: 700px;
     margin: auto;

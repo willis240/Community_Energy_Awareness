@@ -18,7 +18,7 @@ $battery_message= db.get_first_value "SELECT battery FROM microgrids WHERE name=
 $wind_message = db.get_first_value "SELECT wind FROM microgrids WHERE name= 'Kotzebue'"
 $solar_message = db.get_first_value "SELECT solar FROM microgrids WHERE name= 'Kotzebue'"
 $diesel_message = db.get_first_value "SELECT diesel FROM microgrids WHERE name= 'Kotzebue'"
-$total_input = db.get_first_value "SELECT total_input FROM microgrids WHERE name= 'Kotzebue'"
+$total_load = db.get_first_value "SELECT total_load FROM microgrids WHERE name= 'Kotzebue'"
 
 puts $battery_message, $wind_message, $solar_message, $diesel_message
 

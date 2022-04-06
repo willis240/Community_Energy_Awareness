@@ -2,7 +2,7 @@
   <%= stylesheet_link_tag "dashboard.css" %>
   <script src="http://code.jquery.com/jquery-latest.js"> </script>
       <script type="text/javascript">
-        setInterval("my_function();",5000);
+        setInterval("my_function();",1000);
         function my_function(){
           $('#refresh').load(location.href + ' #refresh');
       }
@@ -19,6 +19,18 @@
       <%= render 'microgrid/contents', microgrid: microgrid %>
     </div>
 
+    <div class="row">
+      <div class="col">
+        <div class="update-note">
+          <p> Updated xx seconds ago </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="right-justify">
+          <a href="" class="graphs-link"> Utility Graphs </a>
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>

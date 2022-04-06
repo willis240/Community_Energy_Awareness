@@ -5,6 +5,7 @@
     <div class="row">
       <div class="border-renew text-center">
         <p id="title-renew"> Wind </p>
+        <p id="text-renew"> Renewable </p>
         <p id="energy"> <%= microgrid.wind %> kW </p>
         <div class="percent">
           <p>
@@ -23,6 +24,7 @@
     <div class="row">
       <div class="border-diesel text-center">
         <p id="title-diesel"> Diesel </p>
+        <p id="text-diesel"> Non-<br>Renewable </p>
         <p id="energy"> <%= microgrid.diesel %> kW </p>
         <div class="percent">
           <p>
@@ -39,6 +41,7 @@
 
   <div class="col text-center">
     <div class="img-fluid">
+      <br> <br> <br>
       <% if microgrid.battery > 0 %>
         <%= image_tag "Arrows_Small_Discharging.png", height: 300 %>
       <% else %>
@@ -51,6 +54,7 @@
     <div class="row">
       <div class="border-renew text-center">
         <p id="title-renew"> Solar </p>
+        <p id="text-renew"> Renewable </p>
         <p id="energy"> <%= microgrid.solar %> kW </p>
         <div class="percent">
           <p>
@@ -66,6 +70,15 @@
     <div class="row">
       <div class="border-battery text-center">
         <p id="title-battery"> Battery </p>
+        <p>
+        <% if microgrid.battery < 0 %>
+          <filter style="color:darkorange"> Charging /<br> </filter>
+          <filter style="color:lightgray"> Discharging </filter>
+        <% else %>
+          <filter style="color:lightgray"> Charging /<br> </filter>
+          <filter style="color:darkorange"> Discharging </filter>
+        <% end %>
+        </p>
         <p id="energy"> <%= microgrid.battery %> kW </p>
         <div class="percent">
           <p>
@@ -90,7 +103,7 @@
 <div class="row output text-center">
   <div class="col">
     <div class="border-output">
-      <p id="title-output"> Output </p>
+      <p id="title-output"> Community Draw </p>
       <p id="energy"> <%= microgrid.total_load %> kW </p>
     </div>
   </div>
