@@ -3,12 +3,14 @@ class CreateMicrogrids < ActiveRecord::Migration[7.0]
     create_table :microgrids do |t|
       t.string :name
       t.integer :total_load
-      t.integer :total_input
-      t.integer :frequency
       t.integer :wind
+      t.decimal :wind_percentage
       t.integer :solar
+      t.decimal :solar_percentage
       t.integer :battery
+      t.decimal :battery_percentage
       t.integer :diesel
+      t.decimal :diesel_percentage
 
       t.timestamps
     end
