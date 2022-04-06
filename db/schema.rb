@@ -14,12 +14,14 @@ ActiveRecord::Schema[7.0].define(version: 2022_02_09_235821) do
   create_table "microgrids", force: :cascade do |t|
     t.string "name"
     t.integer "total_load"
-    t.integer "total_input"
-    t.integer "frequency"
     t.integer "wind"
+    t.decimal "wind_percentage"
     t.integer "solar"
+    t.decimal "solar_percentage"
     t.integer "battery"
+    t.decimal "battery_percentage"
     t.integer "diesel"
+    t.decimal "diesel_percentage"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
