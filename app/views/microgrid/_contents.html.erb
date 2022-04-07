@@ -79,7 +79,7 @@
           <filter style="color:darkorange"> Discharging </filter>
         <% end %>
         </p>
-        <p id="energy"> <%= microgrid.battery %> kW </p>
+        <p id="energy"> <%= microgrid.battery.abs %> kW </p>
         <div class="percent">
           <p>
             <filter id="symbol-battery">

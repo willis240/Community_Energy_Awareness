@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'mqtt'
 require 'sqlite3'
+require "date"
 
 client = MQTT::Client.connect(
   :host => 'mqtt.lab.acep.uaf.edu',
@@ -19,8 +20,9 @@ $wind_message = db.get_first_value "SELECT wind FROM microgrids WHERE name= 'Kot
 $solar_message = db.get_first_value "SELECT solar FROM microgrids WHERE name= 'Kotzebue'"
 $diesel_message = db.get_first_value "SELECT diesel FROM microgrids WHERE name= 'Kotzebue'"
 $total_load = db.get_first_value "SELECT total_load FROM microgrids WHERE name= 'Kotzebue'"
+$updated = db.get_first_value "SELECT updated_at FROM microgrids WHERE name= 'Kotzebue'"
 
-puts $battery_message, $wind_message, $solar_message, $diesel_message
+puts $battery_message, $wind_message, $solar_message, $diesel_message, $updated
 
 client.get do |topic, message|
   if topic == '/mock-data/kea/battery'
@@ -42,6 +44,9 @@ client.get do |topic, message|
   if $battery_message > 0
     $total_load += $battery_message
   end
-  db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=? WHERE name=?",
-             $battery_message, $wind_message, $solar_message, $diesel_message, $total_load, 'Kotzebue'
+
+  $updated = DateTime.now.to_s
+
+  db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=?, updated_at=? WHERE name=?",
+             $battery_message, $wind_message, $solar_message, $diesel_message, $total_load, $updated, 'Kotzebue'
 end

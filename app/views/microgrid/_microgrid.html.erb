@@ -17,19 +17,8 @@
 
     <div id="refresh">
       <%= render 'microgrid/contents', microgrid: microgrid %>
-    </div>
 
-    <div class="row">
-      <div class="col">
-        <div class="update-note">
-          <p> Updated xx seconds ago </p>
-        </div>
-      </div>
-      <div class="col">
-        <div class="right-justify">
-          <a href="" class="graphs-link"> Utility Graphs </a>
-        </div>
-      </div>
+      <%= render 'microgrid/time', microgrid: microgrid %>
     </div>
 
   </div>
