@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f1c61b-0c12-4694-8656-6c6d6227c64d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/microgrid/_time.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Community_Energy_Awareness.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Community_Energy_Awareness.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/microgrid/_contents.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/_contents.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/microgrid/_microgrid.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/_microgrid.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mqttToDatabase.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/mqttToDatabase.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649360540660</updated>
       <workItem from="1649360543371" duration="1455000" />
+      <workItem from="1649376747782" duration="951000" />
     </task>
     <servers />
   </component>
@@ -155,6 +150,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1649361869480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1649377264989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
   </component>
 </project>
