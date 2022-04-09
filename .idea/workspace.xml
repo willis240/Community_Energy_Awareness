@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f1c61b-0c12-4694-8656-6c6d6227c64d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91761f92-75c8-4f75-ad1f-6090683645d2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/Arrows_Large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/Arrows_Small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Charging.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Charging.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Discharging.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Discharging.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/meme.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/microgrid/_contents.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/_contents.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Rails.Development: Community_Energy_Awareness">
     <configuration name="Development: Community_Energy_Awareness" type="RailsRunConfigurationType" factoryName="Rails">
@@ -45,7 +53,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -66,7 +74,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -86,7 +94,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -109,7 +117,7 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -120,6 +128,12 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Rails.Production: Community_Energy_Awareness" />
+      <item itemvalue="Rails.Development: Community_Energy_Awareness" />
+      <item itemvalue="Rake.test: Community_Energy_Awareness" />
+      <item itemvalue="Rake.spec: Community_Energy_Awareness" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
@@ -132,6 +146,8 @@
       <updated>1649360540660</updated>
       <workItem from="1649360543371" duration="1455000" />
       <workItem from="1649376747782" duration="951000" />
+      <workItem from="1649534405935" duration="54000" />
+      <workItem from="1649534462557" duration="2362000" />
     </task>
     <servers />
   </component>
@@ -150,6 +166,11 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1649377264989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@db_migrate__Community_Energy_Awareness.rcov" NAME="db:migrate: Community_Energy_Awareness Coverage Results" MODIFIED="1648177626422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@db_migrate_redo__Community_Energy_Awareness.rcov" NAME="db:migrate:redo: Community_Energy_Awareness Coverage Results" MODIFIED="1649275595915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@Community_Energy_Awareness.rcov" NAME="Community_Energy_Awareness Coverage Results" MODIFIED="1649275811400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@db_seed_replant__Community_Energy_Awareness.rcov" NAME="db:seed:replant: Community_Energy_Awareness Coverage Results" MODIFIED="1648924930698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1649534693217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/Community_Energy_Awareness@db_seed__Community_Energy_Awareness.rcov" NAME="db:seed: Community_Energy_Awareness Coverage Results" MODIFIED="1649275647293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
   </component>
 </project>
