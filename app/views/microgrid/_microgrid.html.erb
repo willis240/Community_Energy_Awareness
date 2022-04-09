@@ -15,8 +15,12 @@
       <p id=title-name> <%= microgrid.name %> Power Grid </p>
     </div>
 
-    <div class="row">
-      <p class="graphs-link"> <%= link_to 'Utility Graphs', graphs_path(@microgrid) %></p>
+    <div class="row graphs-link-wrapper">
+      <p class="graphs-link">
+        <%= link_to 'Utility Graphs', graphs_path(@microgrid) %>
+        &nbsp
+        <%= link_to image_tag("Graph.png", border: 0, height: 20), graphs_path(@microgrid) %>
+      </p>
     </div>
 
     <div id="refresh">

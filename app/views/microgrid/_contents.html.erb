@@ -12,7 +12,7 @@
             <filter id="symbol-renew">
               <%= image_tag "input_symbols/Wind_Symbol.png", height: 25 %>
             </filter>
-            &nbsp;
+            &nbsp
             <%= ((microgrid.wind / microgrid.total_load.to_d) * 100).round(2) %> %
           </p>
         </div>

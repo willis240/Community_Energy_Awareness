@@ -56,3 +56,10 @@ Added two different single-direction battery arrows
 
 Implemented the two single-direction battery arrows
 4/2/2022
+
+Added Renewable and Non-Renewable tags, added Charging / Discharging tags to
+make Battery's status more easily understandable
+4/6/2022
+
+Made new arrows to complement the new dashboard design
+4/9/2022

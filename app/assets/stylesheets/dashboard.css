@@ -78,8 +78,21 @@
     text-align: right;
 }
 
+.graphs-link-wrapper{
+    padding-bottom: 15px;
+}
+
 .graphs-link{
     text-align: center;
+    border: 6px solid #383838;
+    border-radius: 12px;
+    max-width: 170px;
+    margin:0 auto;
+    padding-bottom: 3px;
+}
+
+a:link, a:visited {
+    color: black;
 }
 
 .update-note{
