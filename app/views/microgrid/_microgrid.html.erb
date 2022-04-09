@@ -12,7 +12,11 @@
 <div class="container-bg">
   <div class="container">
     <div class="row title text-center">
-      <p id=title-output> <%= microgrid.name %> Power Grid </p>
+      <p id=title-name> <%= microgrid.name %> Power Grid </p>
+    </div>
+
+    <div class="row">
+      <p class="graphs-link"> <%= link_to 'Utility Graphs', graphs_path(@microgrid) %></p>
     </div>
 
     <div id="refresh">

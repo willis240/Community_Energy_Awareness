@@ -26,6 +26,13 @@
     border-radius: 1em;
 }
 
+#title-name {
+    color: white;
+    background-color: black;
+    border-radius: 1em;
+    font-size: 20px;
+}
+
 #text-renew {
     color: lightgreen;
     margin-top: 0;
@@ -72,13 +79,14 @@
 }
 
 .graphs-link{
-    padding-right: 7px;
-    color: deepskyblue;
+    text-align: center;
 }
 
 .update-note{
     padding-left: 5px;
+    padding-top: 8px;
     color: black;
+    line-height: .5em;
 }
 
 .percent{
