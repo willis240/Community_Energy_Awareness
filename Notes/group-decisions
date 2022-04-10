@@ -2,4 +2,20 @@ Using Jekyll and Rails for project.
 
 Dropping Jekyll to make a dynamic cite with rails.
 
-Rough Prototype goal of first formal presentation Febuary 22, 2022.
+Rough Prototype goal of first formal presentation February 22, 2022.
+
+Got a rough design of the dashboard layout for first formal.
+
+Decided to use bootstrap for front end as it is common to use with rails and for easier mobile layout.
+
+Goal of MVP by second formal presentation March 29, 2022.
+
+Met MVP goal, still some work to be done such as auto refresh and user testing.
+
+First user testing set for April 2, 2022.
+
+Changing some names and layout based on user testing problems/misunderstandings.
+
+Second set of user testing planned for April 12-13, 2022. This would be done in the Wood Center to get a
+larger variety of people to answer questions. Goal is to have it launched to Heroku to be able to test a
+large variety of devices as well.
