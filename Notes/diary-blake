@@ -1,5 +1,32 @@
-Learned how to create basic blog cite with rails and made a testing webpage with Jekyll. - 2/1/22
+Created basic blog style website by following the Rails 7 guide in the group decisions file. This was a great
+introduction to rails and how the file structure works.
 
-Forgot to update blog. 2/2/22-2/10/22 was MQTT research and brushing up on HTML, CSS, and Javascript.
+Using https://www.geeksforgeeks.org/html/ for brushing up on html and css.
 
-Created mock front end website for project. - 2/14/22
+Made front end mock website for the dashboard to sit in. The website itself is not apart of the MVP but to show the
+dashboard in a more realistic environment.
+
+Created base dashboard design using plain html and css with flex boxes.
+
+Redid front end with bootstrap front end for easier mobile styling and dashboard layout. Using the
+https://getbootstrap.com/docs/5.1/getting-started/introduction/ website for reference and help.
+
+Redesign of inputs to look more user friendly.
+
+Redid structure of dashboard to have nested col and row for easier auto scaling.
+
+Got auto div refresh working by re-rendering sections of the dashboard. Based on a one second timer through
+Javascript setInterval().
+
+Implemented battery arrow flipping based on charging or discharging battery.
+
+First round of user testing went okay. Battery needs to be reworked to more easily explain its state.
+Rephrasing a few things to make them more clear. Next set of testing planned for one week from now.
+
+Implemented charging and discharging labels for battery that its color changes based on state. Also added
+labels to other inputs for renewable or non-renewable. Added a last updated time stamp similar to the
+one from the blog introduction project.
+
+Set up paths for graphs page linking. Currently sending the microgrid information based on id. Might have
+to change in the future to access more than that one row for data history.
+
