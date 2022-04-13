@@ -126,7 +126,7 @@ a:link, a:visited {
     border: 8px solid black;
     border-radius: 28px;
     background-color: dimgray;
-    max-width: 700px;
+    max-width: 400px;
     margin: auto;
     width: 95%;
 }
