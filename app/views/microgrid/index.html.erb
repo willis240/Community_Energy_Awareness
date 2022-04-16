@@ -1,12 +1,12 @@
 <%= stylesheet_link_tag "website.css" %>
 
 <header>
-  <%= image_tag "UAF_logo.png", height: 50 %>
+  <%= link_to image_tag("UAF_logo.png", height: 50), microgrid_index_path %>
 </header>
 
 <body>
 <ul>
-  <li><a>Home</a></li>
+  <li><a class="active">Home</a></li>
   <li><a>Page 1</a></li>
   <li><a>Page 2</a></li>
   <li><a>Page 3</a></li>

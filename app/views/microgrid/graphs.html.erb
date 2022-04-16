@@ -1,5 +1,14 @@
+<%= stylesheet_link_tag "website.css" %>
+
+<header>
+  <%= link_to image_tag("UAF_logo.png", height: 50), microgrid_index_path %>
+</header>
+
 <body>
-  <div style="font-size: 50px">
-    <p>GRAPHS HERE!!!</p>
-  </div>
+  <ul>
+    <li><%= link_to 'Home', microgrid_index_path %></li>
+    <li><a>Page 1</a></li>
+    <li><a>Page 2</a></li>
+    <li><a>Page 3</a></li>
+  </ul>
 </body>

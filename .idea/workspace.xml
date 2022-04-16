@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1f2d2ac-fb60-4727-806b-f1174bb09097" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Charging.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Community_Energy_Awareness.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Community_Energy_Awareness.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/website.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/microgrid/_contents.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/_contents.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/microgrid/graphs.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/graphs.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/microgrid/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -131,6 +149,9 @@
       <updated>1649877363489</updated>
       <workItem from="1649877366960" duration="466000" />
       <workItem from="1650046781387" duration="614000" />
+      <workItem from="1650051975829" duration="1375000" />
+      <workItem from="1650137989565" duration="1127000" />
+      <workItem from="1650139213835" duration="101000" />
     </task>
     <servers />
   </component>
@@ -138,6 +159,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/diary_keegan@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1650138144344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
     <SUITE FILE_PATH="coverage/Community_Energy_Awareness@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1649877477361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
   </component>
 </project>
