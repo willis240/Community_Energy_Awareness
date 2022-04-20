@@ -7,7 +7,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: pgadmin
+  username: cead
   password:
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
