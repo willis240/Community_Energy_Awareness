@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is created with Ruby on Rails 7 to display a dashboard that provides information
+about local community power grids with the utilities: Wind, Solar, Diesel, and Battery.
+The data displayed is pulled from a MQTT database from ACEP and stored in a SQLite3 database.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version - 3.0.3
