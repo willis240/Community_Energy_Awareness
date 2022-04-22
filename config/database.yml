@@ -7,8 +7,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: mkqsrxibvdhvmh
-  password: b6da3c34ac7b51b3644692490c537682693cecf7c6955ab6112197626f7c52c0
+  username: postgres
+  password: bpassword heroku pg:pull
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
