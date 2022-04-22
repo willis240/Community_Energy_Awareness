@@ -19,7 +19,7 @@ No additional credentials need to be created, the default credentials can be acc
 1. Migrate with `heroku run rails db:migrate`
 2. Seed the data with `heroku run rails db:seed` to initialize values
 3. Run the application with `heroku run rails server`
-~~4. Open a new tab and run `ruby db/mqttToDatabase.rb`~~ Still working on this process
+4. ~~Open a new tab and run `ruby db/mqttToDatabase.rb`~~ Still working on this process
 5. Navigate in a web browser to `https://community-energy-awareness.herokuapp.com/`
 
 ### Pushing to Heroku
