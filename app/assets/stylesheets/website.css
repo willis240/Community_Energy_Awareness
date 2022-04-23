@@ -11,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #222;
+    background-color: #1ea0ff;
 }
 
 li {
@@ -24,11 +24,21 @@ li a {
     color: white;
     text-align: center;
     font-size: 1.25em;
-    background-color: #222;
+    background-color: #1ea0ff;
 }
 
 li a:hover {
     background-color: #666666;
+    color: white;
+}
+
+li a.active {
+    background-color: #666666;
+    color: white;
+}
+
+a:link, a:visited {
+    color: black;
 }
 
 .filler{
