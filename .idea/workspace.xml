@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1f2d2ac-fb60-4727-806b-f1174bb09097" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Community_Energy_Awareness.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Community_Energy_Awareness.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Charging_Colored.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/Arrows_Small_Charging_Colored.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/website.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/microgrid/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +252,10 @@
       <workItem from="1650137989565" duration="1127000" />
       <workItem from="1650139213835" duration="101000" />
       <workItem from="1650416827662" duration="368000" />
-      <workItem from="1650475322219" duration="436000" />
+      <workItem from="1650475322219" duration="515000" />
+      <workItem from="1650587158332" duration="657000" />
+      <workItem from="1650679324998" duration="1046000" />
+      <workItem from="1650916231681" duration="1424000" />
     </task>
     <servers />
   </component>
@@ -272,7 +274,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/_gitignore@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1650475339906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
+    <SUITE FILE_PATH="coverage/_gitignore@Development__Community_Energy_Awareness.rcov" NAME="Development: Community_Energy_Awareness Coverage Results" MODIFIED="1650916267960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
     <SUITE FILE_PATH="coverage/_gitignore@db_migrate_up__Community_Energy_Awareness.rcov" NAME="db:migrate:up: Community_Energy_Awareness Coverage Results" MODIFIED="1650417080556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
     <SUITE FILE_PATH="coverage/_gitignore@db_migrate__Community_Energy_Awareness.rcov" NAME="db:migrate: Community_Energy_Awareness Coverage Results" MODIFIED="1650417055504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
     <SUITE FILE_PATH="coverage/_gitignore@db_seed__Community_Energy_Awareness.rcov" NAME="db:seed: Community_Energy_Awareness Coverage Results" MODIFIED="1650417175443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Community_Energy_Awareness" />
