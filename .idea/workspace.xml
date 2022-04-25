@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1f2d2ac-fb60-4727-806b-f1174bb09097" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/website.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/microgrid/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microgrid/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +253,7 @@
       <workItem from="1650475322219" duration="515000" />
       <workItem from="1650587158332" duration="657000" />
       <workItem from="1650679324998" duration="1046000" />
-      <workItem from="1650916231681" duration="1424000" />
+      <workItem from="1650916231681" duration="2045000" />
     </task>
     <servers />
   </component>
