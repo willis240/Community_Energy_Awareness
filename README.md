@@ -44,6 +44,10 @@ Documents for the user testing can be found at:
 
 ## Resources:
 
+### Slideshow
+
+There is a slideshow that was used to present this project to a general audience. It can be found [here](https://docs.google.com/presentation/d/1jktx9P-xoY6U6qeFRl1oUHXaAg5qSYIBRYwCJNU1iCw/edit?usp=sharing)
+
 ### Developer Notes
 
 Notes taken by the developers during their process can all be found in the `Notes` folder.
