@@ -19,3 +19,9 @@ Changing some names and layout based on user testing problems/misunderstandings.
 Second set of user testing planned for April 12-13, 2022. This would be done in the Wood Center to get a
 larger variety of people to answer questions. Goal is to have it launched to Heroku to be able to test a
 large variety of devices as well.
+
+Did user testing on the 13th and had 12 people take part in testing.
+
+Changed the structure of the github to Heroku and Local. Heroku runs the Postgres data base and Local runs SQLite3.
+
+Going to be getting a paid Heroku account to host the ruby daemon file and the website. MQTT broker will be run on a seperate machine.
