@@ -40,23 +40,24 @@ client.get do |topic, message|
     puts Diesel: $diesel_message
   end
 
-  $total_load = $wind_message + $solar_message + $diesel_message
+  $total_load = $wind_message + $solar_message + $diesel_message + 1
   $battery_percentage, $wind_percentage, $solar_percentage, $diesel_percentage = 0
   if $battery_message > 0
     $total_load += $battery_message
-    $battery_percentage = (($battery_message / $total_load) * 100).round(2)
+    $battery_percentage = (($battery_message / $total_load.to_f) * 100).round(2)
   end
 
-  $wind_percentage = (($wind_message / $total_load) * 100).round(2)
-  $solar_percentage = (($solar_message / $total_load) * 100).round(2)
-  $diesel_percentage = (($diesel_message / $total_load) * 100).round(2)
+  $wind_percentage = (($wind_message / $total_load.to_f) * 100).round(2)
+  $solar_percentage = (($solar_message / $total_load.to_f) * 100).round(2)
+  $diesel_percentage = (($diesel_message / $total_load.to_f) * 100).round(2)
 
   $updated = DateTime.now.to_s
 
-   db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=?, updated_at=? WHERE name=?",
+  db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=?, updated_at=? WHERE name=?",
              $battery_message, $wind_message, $solar_message, $diesel_message, $total_load, $updated, 'Kotzebue'
-  db.execute "UPDATE microgrids SET battery_percentage=?, wind_percentage=?, solar_percentage=?, diesel_percentage=?, WHERE name=?",
-             $battery_message, $wind_message, $solar_message, $diesel_message, 'Kotzebue'
+
+  db.execute "UPDATE microgrids SET battery_percentage=?, wind_percentage=?, solar_percentage=?, diesel_percentage=? WHERE name=?",
+             $battery_percentage, $wind_percentage, $solar_percentage, $diesel_percentage, 'Kotzebue'
 
 end
 
