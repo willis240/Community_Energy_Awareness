@@ -39,8 +39,8 @@ We found the second approach to be more useful because it was easier to find a v
 ### Documents
 
 Documents for the user testing can be found at:  
--[Round one](https://docs.google.com/document/d/1IjwkGfpJFuuxrjMxiqrntTCFDunrHdIoWV2r9a3TOEc/edit?usp=sharing)
--[Round two](https://docs.google.com/document/d/1jXWgM-x3liAdJHPXROjwuCtoEXi4jAzzFc-m_4uZj2k/edit?usp=sharing)
+- [Round one](https://docs.google.com/document/d/1IjwkGfpJFuuxrjMxiqrntTCFDunrHdIoWV2r9a3TOEc/edit?usp=sharing)
+- [Round two](https://docs.google.com/document/d/1jXWgM-x3liAdJHPXROjwuCtoEXi4jAzzFc-m_4uZj2k/edit?usp=sharing)
 
 ## Resources:
 
