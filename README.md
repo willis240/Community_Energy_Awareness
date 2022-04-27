@@ -52,6 +52,10 @@ There is a slideshow that was used to present this project to a general audience
 
 Notes taken by the developers during their process can all be found in the `Notes` folder.
 
+### Architecture Diagram
+
+An architecture diagram can also be found in the `Notes` folder.
+
 ### Rails
 
 - [Jetbrain Rails Intro](https://www.jetbrains.com/help/ruby/create-and-run-your-first-project.html#create_controller_view) 
