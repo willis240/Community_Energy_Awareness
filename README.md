@@ -4,9 +4,11 @@
 ## Heroku
 
 ### Notes
-No additional credentials need to be created, the default credentials can be accessed through environment variables.
+
+No additional credentials need to be created, the default credentials are accessed through environment variables.
 
 ### Running on Heroku
+
 1. Migrate with `heroku run rails db:migrate`
 2. Seed the data with `heroku run rails db:seed` to initialize values
 3. Run the application with `heroku run rails server`
@@ -14,17 +16,9 @@ No additional credentials need to be created, the default credentials can be acc
 5. Navigate in a web browser to `https://community-energy-awareness.herokuapp.com/`
 
 ### Pushing to Heroku
+
 - `git push heroku <branchname>:main`
 - `git push heroku main` if pushing main branch
-
-<--! ## Running the Application
-
-1. Migrate with `rails db:migrate`
-2. Seed the data with `rails db:seed` to initialize values
-3. Run the application with `rails server`
-4. Open a new tab and run `ruby db/mqttToDatabase.rb`
-5. Navigate in a web browser to `localhost:3000/microgrid` -->
-
 
 ## Contributors
 
@@ -45,7 +39,8 @@ We found the second approach to be more useful because it was easier to find a v
 ### Documents
 
 Documents for the user testing can be found at:  
-
+[Round one](https://docs.google.com/document/d/1IjwkGfpJFuuxrjMxiqrntTCFDunrHdIoWV2r9a3TOEc/edit?usp=sharing)
+[Round two](https://docs.google.com/document/d/1jXWgM-x3liAdJHPXROjwuCtoEXi4jAzzFc-m_4uZj2k/edit?usp=sharing)
 
 ## Resources:
 
