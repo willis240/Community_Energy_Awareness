@@ -10,7 +10,7 @@ client = MQTT::Client.connect(
 )
 
 client.subscribe( '/capstone/dashboard/#' )
-db = SQLite3::Database.open 'development.sqlite3'
+db = PG::Database.open 'development.sqlite3'
 if db
   puts 'datastream open'
 end
