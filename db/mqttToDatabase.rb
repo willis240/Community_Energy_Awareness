@@ -64,15 +64,10 @@ $wind_percentage = (($wind_message / $total_load.to_f) * 100).round(2)
 $solar_percentage = (($solar_message / $total_load.to_f) * 100).round(2)
 $diesel_percentage = (($diesel_message / $total_load.to_f) * 100).round(2)
   $updated = DateTime.now.to_s
-bat = $battery_message
-win = $wind_message
-sol = $solar_message
-dis = $diesel_message
-tot = $total_load
-upd = $updated
-  db.exec "UPDATE microgrids SET (battery, wind, solar, diesel, total_load, updated_at) = (%d, win, sol, dis, tot, upd) WHERE name = 'Kotzebue'" % [$battery_message]
+  
+  db.exec "UPDATE microgrids SET (battery, wind, solar, diesel, total_load, updated_at) = (%d, %d, %d, %d, %d, %d) WHERE name = 'Kotzebue'" % [$battery_message, $wind_message, $solar_message, $diesel_message, $total_load, $updated]
 
-  db.exec "UPDATE microgrids SET battery_percentage=?, wind_percentage=?, solar_percentage=?, diesel_percentage=? WHERE name=?",
+  db.exec "UPDATE microgrids SET battery_percentage=%d, wind_percentage=%d, solar_percentage=%d, diesel_percentage=%d WHERE name=%s",
              $battery_percentage, $wind_percentage, $solar_percentage, $diesel_percentage, 'Kotzebue'
 
 end
