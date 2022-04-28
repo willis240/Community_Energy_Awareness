@@ -11,13 +11,9 @@ client = MQTT::Client.connect(
 
 client.subscribe( '/capstone/dashboard/#' )
 
-begin
 
-  db = PG.connect(ENV['DATABASE_URL'])
+db = PG.connect(ENV['DATABASE_URL'])
 
-rescue PG::Error => e
-
-  puts e.message
 
 if db
   puts 'datastream open'
@@ -65,6 +61,3 @@ $wind_percentage = (($wind_message / $total_load.to_f) * 100).round(2) $solar_pe
 
 end
 
-ensure
-  db.close if db
-end
