@@ -19,22 +19,18 @@ if db
   puts 'datastream open'
 end
 
- bat = db.exec "SELECT battery FROM microgrids WHERE name= 'Kotzebue'"
+ $battery_message = db.exec "SELECT battery FROM microgrids WHERE name= 'Kotzebue'"
  $wind_message = db.exec "SELECT wind FROM microgrids WHERE name= 'Kotzebue'"
  $solar_message = db.exec "SELECT solar FROM microgrids WHERE name= 'Kotzebue'"
  $diesel_message = db.exec "SELECT diesel FROM microgrids WHERE name= 'Kotzebue'"
  $total_load = db.exec "SELECT total_load FROM microgrids WHERE name= 'Kotzebue'"
  $updated = db.exec "SELECT updated_at FROM microgrids WHERE name= 'Kotzebue'"
 
-bat.each do | row | 
-  puts row
-end
-
 if $wind_message == nil
   $wind_message, $solar_message, $diesel_message, $battery_message = 0
 end
 
-puts $battery_message, $wind_message, $solar_message, $diesel_message, $updated
+puts $battery_message.values, $wind_message, $solar_message, $diesel_message, $updated
 
 client.get do |topic, message|
   if topic == '/capstone/dashboard/battery'
