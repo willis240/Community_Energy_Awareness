@@ -70,7 +70,7 @@ sol = $solar_message
 dis = $diesel_message
 tot = $total_load
 upd = $updated
-  db.exec "UPDATE microgrids SET battery = bat, wind = win, solar = sol, diesel = dis, total_load = tot, updated_at = upd WHERE name = 'Kotzebue'"
+  db.exec "UPDATE microgrids SET battery, wind, solar, diesel, total_load, updated_at = bat, win, sol, dis, tot, upd WHERE name = 'Kotzebue'"
 
   db.exec "UPDATE microgrids SET battery_percentage=?, wind_percentage=?, solar_percentage=?, diesel_percentage=? WHERE name=?",
              $battery_percentage, $wind_percentage, $solar_percentage, $diesel_percentage, 'Kotzebue'
