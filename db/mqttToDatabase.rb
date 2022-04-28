@@ -28,6 +28,10 @@ end
 
 puts $battery_message, $wind_message, $solar_message, $diesel_message, $updated
 
+if $wind_message == nil
+  $wind_message, $solar_message, $diesel_message, $battery_message = 0
+end
+
 client.get do |topic, message|
   if topic == '/capstone/dashboard/battery'
     $battery_message = Integer(message.chomp('%'))
