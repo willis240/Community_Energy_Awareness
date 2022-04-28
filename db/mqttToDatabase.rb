@@ -36,7 +36,7 @@ if $wind_message == nil
   $wind_message, $solar_message, $diesel_message, $battery_message = 0
 end
 
-puts $battery_message, $wind_message, $solar_message, $diesel_message, $updated
+puts $battery_message.class, $wind_message, $solar_message, $diesel_message, $updated
 
 client.get do |topic, message|
   if topic == '/capstone/dashboard/battery'
