@@ -19,12 +19,12 @@ if db
   puts 'datastream open'
 end
 
- $battery_message = db.execute "SELECT battery FROM microgrids WHERE name= 'Kotzebue'"
- $wind_message = db.execute "SELECT wind FROM microgrids WHERE name= 'Kotzebue'"
- $solar_message = db.execute "SELECT solar FROM microgrids WHERE name= 'Kotzebue'"
- $diesel_message = db.execute "SELECT diesel FROM microgrids WHERE name= 'Kotzebue'"
- $total_load = db.execute "SELECT total_load FROM microgrids WHERE name= 'Kotzebue'"
- $updated = db.execute "SELECT updated_at FROM microgrids WHERE name= 'Kotzebue'"
+ $battery_message = db.exec "SELECT battery FROM microgrids WHERE name= 'Kotzebue'"
+ $wind_message = db.exec "SELECT wind FROM microgrids WHERE name= 'Kotzebue'"
+ $solar_message = db.exec "SELECT solar FROM microgrids WHERE name= 'Kotzebue'"
+ $diesel_message = db.exec "SELECT diesel FROM microgrids WHERE name= 'Kotzebue'"
+ $total_load = db.exec "SELECT total_load FROM microgrids WHERE name= 'Kotzebue'"
+ $updated = db.exec "SELECT updated_at FROM microgrids WHERE name= 'Kotzebue'"
 
 puts $battery_message, $wind_message, $solar_message, $diesel_message, $updated
 
@@ -61,10 +61,10 @@ $solar_percentage = (($solar_message / $total_load.to_f) * 100).round(2)
 $diesel_percentage = (($diesel_message / $total_load.to_f) * 100).round(2)
   $updated = DateTime.now.to_s
 
-  db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=?, updated_at=? WHERE name=?",
+  db.exec "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=?, updated_at=? WHERE name=?",
              $battery_message, $wind_message, $solar_message, $diesel_message, $total_load, $updated, 'Kotzebue'
 
-  db.execute "UPDATE microgrids SET battery_percentage=?, wind_percentage=?, solar_percentage=?, diesel_percentage=? WHERE name=?",
+  db.exec "UPDATE microgrids SET battery_percentage=?, wind_percentage=?, solar_percentage=?, diesel_percentage=? WHERE name=?",
              $battery_percentage, $wind_percentage, $solar_percentage, $diesel_percentage, 'Kotzebue'
 
 end
