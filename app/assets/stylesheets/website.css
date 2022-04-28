@@ -82,8 +82,10 @@ a:link, a:visited {
 
 #background {
     background-color: #222;
+    color: white;
 }
 
 #background a {
     background-color: #222;
+    color: white;
 }
