@@ -10,7 +10,10 @@ client = MQTT::Client.connect(
 )
 
 client.subscribe( '/capstone/dashboard/#' )
-db = PG.connect :dbname => 'app_development', :user => ENV['PGUSER'], :password => ENV['PGPASSWORD']
+
+begin
+
+  db = PG.connect :dbname => 'app_development', :user => ENV['PGUSER'], :password => ENV['PGPASSWORD']
 
 rescue PG::Error => e
 
@@ -66,3 +69,6 @@ client.get do |topic, message|
 
 end
 
+ensure
+  db.close if db
+end
