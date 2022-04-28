@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'mqtt'
-require 'sqlite3'
+require 'pg'
 require "date"
 
 client = MQTT::Client.connect(
