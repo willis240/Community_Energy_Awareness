@@ -11,6 +11,11 @@ client = MQTT::Client.connect(
 
 client.subscribe( '/capstone/dashboard/#' )
 db = PG.connect :dbname => 'app_development', :user => ENV['PGUSER'], :password => ENV['PGPASSWORD']
+
+rescue PG::Error => e
+
+  puts e.message
+
 if db
   puts 'datastream open'
 end
