@@ -50,7 +50,9 @@ client.get do |topic, message|
     $total_load += $battery_message
     $battery_percentage = (($battery_message / $total_load.to_f) * 100).round(2)
   end
-$wind_percentage = (($wind_message / $total_load.to_f) * 100).round(2) $solar_percentage = (($solar_message / $total_load.to_f) * 100).round(2) $diesel_percentage = (($diesel_message / $total_load.to_f) * 100).round(2)
+$wind_percentage = (($wind_message / $total_load.to_f) * 100).round(2)
+$solar_percentage = (($solar_message / $total_load.to_f) * 100).round(2)
+$diesel_percentage = (($diesel_message / $total_load.to_f) * 100).round(2)
   $updated = DateTime.now.to_s
 
   db.execute "UPDATE microgrids SET battery=?, wind=?, solar=?, diesel=?, total_load=?, updated_at=? WHERE name=?",
