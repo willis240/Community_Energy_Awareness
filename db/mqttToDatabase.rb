@@ -20,13 +20,13 @@ if db
 end
 
  battery_query = db.exec "SELECT battery FROM microgrids WHERE name= 'Kotzebue'"
- $battery_message = battery_query.values[0][0]
+ $battery_message = battery_query.values[0][0].to_i
  wind_query = db.exec "SELECT wind FROM microgrids WHERE name= 'Kotzebue'"
- $wind_message = wind_query.values[0][0]
+ $wind_message = wind_query.values[0][0].to_i
  solar_query = db.exec "SELECT solar FROM microgrids WHERE name= 'Kotzebue'"
- $solar_message = solar_query.values[0][0]
+ $solar_message = solar_query.values[0][0],to_i
  diesel_query = db.exec "SELECT diesel FROM microgrids WHERE name= 'Kotzebue'"
- $diesel_message = diesel_query.values[0][0]
+ $diesel_message = diesel_query.values[0][0],to_i
  total_load_query = db.exec "SELECT total_load FROM microgrids WHERE name= 'Kotzebue'"
  $total_load = total_load_query.values[0][0]
  updated_query = db.exec "SELECT updated_at FROM microgrids WHERE name= 'Kotzebue'"
