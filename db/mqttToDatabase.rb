@@ -65,7 +65,7 @@ $solar_percentage = (($solar_message / $total_load.to_f) * 100).round(2)
 $diesel_percentage = (($diesel_message / $total_load.to_f) * 100).round(2)
   $updated = DateTime.now.to_s
 
-  db.exec "UPDATE microgrids SET battery=$battery_message, wind=$wind_message, solar=$solar_message, diesel=$diesel_message, total_load=$total_load, updated_at=$updated WHERE name='Kotzebue'"
+  db.exec "UPDATE microgrids SET battery = $battery_message, wind = $wind_message, solar = $solar_message, diesel = $diesel_message, total_load = $total_load, updated_at = $updated WHERE name = 'Kotzebue'"
 
   db.exec "UPDATE microgrids SET battery_percentage=?, wind_percentage=?, solar_percentage=?, diesel_percentage=? WHERE name=?",
              $battery_percentage, $wind_percentage, $solar_percentage, $diesel_percentage, 'Kotzebue'
