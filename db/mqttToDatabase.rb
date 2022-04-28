@@ -19,14 +19,16 @@ if db
   puts 'datastream open'
 end
 
- $battery_message = db.exec "SELECT battery FROM microgrids WHERE name= 'Kotzebue'"
+ bat = db.exec "SELECT battery FROM microgrids WHERE name= 'Kotzebue'"
  $wind_message = db.exec "SELECT wind FROM microgrids WHERE name= 'Kotzebue'"
  $solar_message = db.exec "SELECT solar FROM microgrids WHERE name= 'Kotzebue'"
  $diesel_message = db.exec "SELECT diesel FROM microgrids WHERE name= 'Kotzebue'"
  $total_load = db.exec "SELECT total_load FROM microgrids WHERE name= 'Kotzebue'"
  $updated = db.exec "SELECT updated_at FROM microgrids WHERE name= 'Kotzebue'"
 
-puts $battery_message.getInt(), $wind_message.getInt(), $solar_message.getInt(), $diesel_message.getInt(), $updated.getInt()
+bat.each do | row | 
+  puts row
+end
 
 if $wind_message == nil
   $wind_message, $solar_message, $diesel_message, $battery_message = 0
